@@ -66,3 +66,74 @@ body {
     outline: none;
     background: linear-gradient(#4387fd,#4683ea);
 }
+
+.body {
+    padding-top: 50px;
+}
+
+.google_logo {
+    padding-top: 125px;
+}
+
+.search_bar {
+    padding-top: 0;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 482px;
+}
+
+.search_bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search_left {
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: small;
+}
+.magnifying_glass {
+    position: relative;
+    top: 5px;
+    opacity: 0.25;
+    display: inline-block;
+    font-size: small;
+}
+
+.search_input {
+    border-style: none;
+    font-size: 16px;
+    width: 400px;
+    height: 30px;
+    display: inline-block;
+}
+
+.search_nav {
+    margin: 20px auto;
+}
+
+.search_buttons {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+}
+
+.search_buttons:hover {
+    box-shadow: 0 1px 1 px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
